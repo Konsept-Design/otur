@@ -1,0 +1,32 @@
+{
+  "name": "otur",
+  "version": "0.0.1",
+  "description": "Otur is a simple and lightweight library for authentication.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format esm,cjs --dts",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konsept-Design/otur.git"
+  },
+  "keywords": [
+    "authentication",
+    "auth"
+  ],
+  "author": "Alex Marinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Konsept-Design/otur/issues"
+  },
+  "homepage": "https://github.com/Konsept-Design/otur#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
