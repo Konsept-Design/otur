@@ -1,6 +1,6 @@
 {
   "name": "otur",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Otur is a simple and lightweight library for authentication.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
