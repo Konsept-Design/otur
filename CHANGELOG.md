@@ -1,5 +1,11 @@
 # otur
 
+## 0.0.4
+
+### Patch Changes
+
+- 2e1ffc2: updated changeset config access to public
+
 ## 0.0.3
 
 ### Patch Changes
